@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<div id="register" class="animate form">
+    <form>
+        <h1> Регистрация </h1>
+        <p>
+            <label>Ваш логин</label>
+            <input
+                    name="username"
+                    required
+                    type="text"
+                    placeholder="nickname"
+                    minlength="4"
+            />
+        </p>
+        <p>
+            <label> Ваш e-mail</label>
+            <input
+                    name="email"
+                    required
+                    type="email"
+                    placeholder="my@my.com"
+            />
+        </p>
+        <p>
+            <label>Ваш пароль </label>
+            <input
+                    name="password"
+                    required
+                    type="password"
+                    placeholder="123456"
+                    maxlength="6"
+            />
+        </p>
+        <p>
+            <label>Подтвердите ваш пароль </label>
+            <input
+                    name="passwordConfirm"
+                    required
+                    type="password"
+                    placeholder="123456"
+                    maxlength="6"
+
+            />
+        </p>
+        <p>
+            <label>Добавить аватар?</label>
+            <input
+                    type="file"
+                    accept="image/*"
+            />
+
+        </p>
+        <p>
+            <input
+                   type="submit"
+                   value="Регистрация"
+            />
+        </p>
+        <p>
+            Уже зарегистрированы ?
+            <a href="Login.html" class="to_register"> Войдите на сайт </a>
+        </p>
+        <p>
+            <a href="Home.html"><em>Главная</em></a>
+        </p>
+    </form>
+</div>
+</body>
+</html>
